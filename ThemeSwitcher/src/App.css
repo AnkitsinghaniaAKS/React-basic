@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* optional: smooth transitions when theme changes */
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* You can also define basic bg/text colors if needed */
+body {
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
